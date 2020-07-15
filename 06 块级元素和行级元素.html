@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>块级元素和行级元素</title>
+</head>
+<body>
+<!--块级元素：
+      独占一行
+      宽度和高度是可控的，如果没有设置器宽度，将默认铺满整行
+      器内可以包含块级元素和行级元素
+
+    行级元素：
+     不会独占一行，与相邻的行级元素占同一行，直到行占满，会自动掉到下一行
+     宽度和高度是不可控
+     其内只包含行级元素-->
+    <div>div</div>
+    <p>p</p>
+
+    <strong>strong</strong>
+    <span>span</span>
+
+    <!--1.块级标签转我行级标签-->
+    <P style="width:300px;height:50px;background: gray;display:inline;">块级标签转换为行级标签</P>
+    <!--2.行级标签转换为块级标签-->
+    <span style="width:300px;height:50px;background:blue;display:block">行级标签转换为块级标签</span>
+</body>
+</html>
